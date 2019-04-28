@@ -1,7 +1,9 @@
 # 2-lista-exercicios-java
 Repositório com os códigos da segunda lista de exercícios basicos de Java
 
-1- Implemente uma classe chamada Matriz, que pertence a um pacote chamado
+## 1- 
+
+Implemente uma classe chamada Matriz, que pertence a um pacote chamado
 school.cesar.q1.domain e que possui um array de arrays como atributo que guarda
 os seus valores. Os valores devem ser números inteiros. Essa classe deve ter 2
 construtores, um que recebe um número inteiro e inicializa a matriz com o mesmo
@@ -14,7 +16,10 @@ Implemente uma classe chamada Matrizes, no pacote school.cesar.q1.utils, que
 possui um método estático chamado multiplicar que recebe duas matrizes como
 parâmetro, verifica se a multiplicação é possível e caso seja retorna uma nova
 Matriz como resultado da multiplicação, e caso não seja, retorna null.
-2- Implemente uma classe chamada EquacaoSegundoGrau, que pertence ao
+
+## 2- 
+
+Implemente uma classe chamada EquacaoSegundoGrau, que pertence ao
 pacote school.cesar.q2. Esta classe deve possuir um construtor que recebe três
 argumentos reais chamados a,b e c e associa a 3 atributos da classe de mesmo
 nome. Implemente um método chamado getRaizes que retorna os possíveis valores
@@ -26,7 +31,10 @@ Para calcular os valores de x, utilize a fórmula de Bhaskara.
 Sobrescreva os método hashcode, equals (que deve comparar se duas equações
 tem os mesmo valores de a,b,c e raízes) e o método toString que deve imprimir os
 valores de a,b,c e das raízes da equação.
-3- Implemente uma classe chamada SomaDupla que pertence ao pacote
+
+## 3-
+ 
+Implemente uma classe chamada SomaDupla que pertence ao pacote
 school.cesar.q3. Nesta classe implemente um método estático que recebe como
 parâmetros um ArrayList de números inteiros chamado valores e um outro inteiro
 chamado alvo. Esse método deve retornar uma String cujo conteúdo é formado
@@ -38,7 +46,9 @@ valores até que o usuário insira a palavra parar. A seguir leia do teclado o v
 alvo, execute o método implementado e imprima na tela o valor dos índices ou a
 mensagem de erro. Não é necessário validar caso de o input do usuário não ser um
 número inteiro ou a palavra parar.
-4- Implemente uma classe chamada Data que pertence ao pacote
+
+## 4- 
+Implemente uma classe chamada Data que pertence ao pacote
 school.cesar.q4.domain e que possui os atributos inteiros dia, mês e ano além do
 atributo dia da semana. O dia da semana deve ser definido através de uma
 enumeração.
@@ -60,7 +70,9 @@ retornada.
 Implemente uma sobrecarga do método de comparação que recebe um dia da
 semana como parâmetro e retorna se data atual tem o dia da semana, igual, antes
 ou depois do dia da semana passada como parâmetro.
-5 - Implemente uma classe chamada Craps que pertence ao pacote
+
+## 5 -
+ Implemente uma classe chamada Craps que pertence ao pacote
 school.cesar.q5. Esta classe simula um jogo de mesmo nome, cujas regras são
 descritas a seguir:
 Dois dados de 6 lados são lançados:
