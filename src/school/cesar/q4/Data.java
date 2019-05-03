@@ -45,6 +45,9 @@ public class Data {
                 dia = maxFevDay;
             }
         }
+        if(dia < 1)
+            dia = 1;
+
         else if(Arrays.asList(mesesCom30Dias).contains(mes)){
             if(dia > maxMonthDaysLower)
                 dia = maxMonthDaysLower;
@@ -107,5 +110,20 @@ public class Data {
             return "depois";
         }
         return "igual";
+    }
+
+    public static void main(String[] args) {
+        Data date1 = new Data(0, 13, 2017, diaDaSemanaEnum.SEG);
+        Data date2 = new Data(1, 12, 2017, diaDaSemanaEnum.TER);
+        Data date3 = new Data(30, 2, 2017, diaDaSemanaEnum.QUAR);
+        Data date4 = new Data(31, 2, 2017, diaDaSemanaEnum.QUI);
+        Data date5 = new Data(28, 2, 2017, diaDaSemanaEnum.SEX);
+
+        System.out.println(date1.compareDates(date2));
+        System.out.println(date1.compareDates(date3));
+        System.out.println(date4.compareDates(date4));
+        System.out.println(date4.compareDates(date5));
+        System.out.println(date3.compareDates(diaDaSemanaEnum.SEG));
+
     }
 }
