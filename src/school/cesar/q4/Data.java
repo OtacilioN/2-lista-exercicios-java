@@ -10,7 +10,7 @@ public class Data {
     private diaDaSemanaEnum diaDaSemana;
 
     public enum diaDaSemanaEnum {
-        SEG(0), TER(1), QUAR(2), QUI(3), SEX(4), SAB(5), DOM(6)
+        SEG(0), TER(1), QUAR(2), QUI(3), SEX(4), SAB(5), DOM(6);
 
         private Integer dayOfWeek;
 
@@ -106,6 +106,6 @@ public class Data {
         if(this.diaDaSemana.isGreaterThan(diaDaSemanaCompare)){
             return "depois";
         }
-        return "igual"
+        return "igual";
     }
 }
